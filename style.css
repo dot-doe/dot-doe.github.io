@@ -1,0 +1,259 @@
+
+body {
+    background-color: blanchedalmond;
+}
+
+@media screen and (max-width:580px ) {
+                 /*Index*/
+   
+    #container {
+        display: flex;
+        background-color: aquamarine;
+        background-image: url(img/BALL.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: rgb(165, 217, 247);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+       
+        
+        
+        
+
+        
+        
+    }
+
+    .button {
+        height: 200px;
+        width: 200px;
+    }
+
+    .container1 {
+        background-color: blanchedalmond;
+        font-size: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    }
+   
+    .container2 {
+        background-color: blanchedalmond;
+        display: flex;
+        font-size: 1em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        flex-direction: column;
+    }
+
+   
+   /*LARRY BIRD*/
+    
+   .larry {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+    background-color: green;
+    justify-content: center;
+    
+
+   }
+
+
+   .larry1 {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+   } 
+   
+   
+   /*Nowitzki*/
+
+   
+   .dirk {
+    display: flex;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+   }
+
+   .dirk2 {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+    background-color: blue;
+    justify-content: center;
+    
+
+   }
+
+   /*Partizan*/
+
+   .par {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    
+   }
+   .par1 {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+   }
+
+}
+
+/*FULLSCREEN*/
+ 
+    
+@media screen and (min-width: 580px) {
+    
+
+
+                 /*Index*/
+   
+                 #container {
+                    display: flex;
+                    
+                    background-color: aquamarine;
+                    background-image: url(img/images.jpeg);
+                    background-repeat: repeat;
+                    background-size: auto;
+                    background-position: center;
+                    color: rgb(4, 113, 177);
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    
+                   
+                    
+                    
+                    
+            
+                    
+                    
+                }
+            
+                .container1 {
+                    background-color: blanchedalmond;
+                    font-size: 2rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+            
+                }
+               
+                .container2 {
+                    background-color: blanchedalmond;
+                    display: flex;
+                    font-size: 1em;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    flex-direction: column;
+                }
+            
+               
+               /*LARRY BIRD*/
+                
+               .larry {
+                display: flex;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                flex-wrap: wrap;
+                background-color: green;
+                justify-content: center;
+                
+            
+               }
+            
+            
+               .larry1 {
+                background-color: green;
+                display: flex;
+                flex-direction: column;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 24px;
+                
+            
+               } 
+               
+               
+               /*Nowitzki*/
+            
+               
+               .dirk {
+                background-color: blue;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 24px;
+               }
+            
+               .dirk2 {
+                display: flex;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                flex-wrap: wrap;
+                background-color: blue;
+                justify-content: center;
+                
+            
+               }
+            
+               /*Partizan*/
+            
+               .par {
+                display: flex;
+                background-color: black;
+                color: aliceblue;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 24px;
+                
+               }
+               .par1 {
+                display: flex;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                flex-wrap: wrap;
+                background-color: black;
+                color: aliceblue;
+                justify-content: center;
+               }
+
+               .button {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+
+            }
+        }
+            
+
+
+
